@@ -247,14 +247,15 @@ body.no-scroll {
     box-shadow: 0 0 28px rgba(0, 212, 255, 0.4);
 }
 
-.profile-circle img {
+.profile-circle-img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    object-fit: cover;
-    object-position: center 40%;
-    display: block;
     border: 3px solid #0a0e17;
+    background-image: url('ncas/photo_me.jpeg');
+    background-size: 180%;
+    background-position: center 20%;
+    background-repeat: no-repeat;
 }
 
 .section-header {
