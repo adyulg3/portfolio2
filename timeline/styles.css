@@ -156,7 +156,7 @@ h2 {
     width: 3px;
     height: 50vh;
     position: fixed;
-    inset: 0 auto 50vh;
+    inset: 8vh auto 50vh;
 }
 
 .section-timeline {
