@@ -6,24 +6,30 @@
     /* line-height: 1; */
 }
 
+body{
+    background-color: #0a0e17;
+    color: #e2e8f0;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #ffffff;
+    background-color: #0a0e17;
     font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid #1e2d3d;
 }
 
 .logo h4{
-    color: rgb(0, 0, 0);
+    color: #e2e8f0;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 35px;
 }
 
 .logo h4:hover {
-    color: rgb(0, 139, 139);
+    color: #00d4ff;
     transition: color 0.3s ease;
   }
 
@@ -38,12 +44,17 @@ nav{
 }
 
 .nav-links a{
-    color: rgb(0, 0, 0);
+    color: #e2e8f0;
     text-decoration: none;
     letter-spacing: none;
     font-weight: bold;
     font-size: 20px;
     padding: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover{
+    color: #00d4ff;
 }
 
 .burger{
@@ -54,7 +65,7 @@ nav{
 .burger div{
     width: 25px;
     height: 2px;
-    background-color: rgb(0, 0, 0);
+    background-color: #e2e8f0;
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -81,7 +92,7 @@ nav{
         right: 0px;
         height: calc(100vh - 70px);
         top: 70px;
-        background-color: #ffffff;
+        background-color: #0a0e17;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -152,7 +163,7 @@ nav{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #ffffff;
+    background-color: rgba(10, 14, 23, 0.92);
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -190,13 +201,17 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(0, 0, 0);
+    color: #00d4ff;
     text-align: center;
     font-size: 20px;
     font-family: Poppins;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
+}
+
+.text-area span{
+    color: #e2e8f0;
 }
 
 .text-area span{
@@ -227,7 +242,7 @@ font-size: 2rem;
 font-weight: bold;
 text-transform: uppercase;
 letter-spacing: 1px;
-color: #333;
+color: #e2e8f0;
 }
 
 .custom-cursor {
@@ -239,8 +254,8 @@ color: #333;
     border-radius: 50%;
     background: radial-gradient(
         circle,
-        rgba(0, 255, 255, 0.25) 0%,      /* red center */
-        rgba(255, 255, 255, 0) 70%     /* transparent white edge */
+        rgba(0, 212, 255, 0.35) 0%,
+        rgba(0, 212, 255, 0) 70%
     );
     pointer-events: none;
     transform: translate(-50%, -50%);
@@ -256,7 +271,7 @@ color: #333;
 
 .about-me h1 {
     font-size: 40px;
-    color: #2b9ec2;
+    color: #00d4ff;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin-top: 50px;
@@ -266,7 +281,7 @@ color: #333;
     content: "";
     height: 5px;
     width: 200px;
-    background-color: #2b9ec2;
+    background-color: #00d4ff;
     border-radius: 10px;
     display: block;
     margin: auto;
@@ -281,7 +296,7 @@ color: #333;
 }
 
 .content h3 {
-    color: #222;
+    color: #e2e8f0;
     letter-spacing: 1px;
     font-size: 40px;
 }
@@ -289,7 +304,7 @@ color: #333;
 .content p {
     font-family: 'Poppins', sans-serif;
     font-size: 19px;
-    color: #1a1a1a;
+    color: #c8d4e0;
     margin-top: 20px;
     line-height: 1.8;
 }
@@ -299,19 +314,20 @@ color: #333;
 }
 
 .content .button a {
-    color: #fff;
-    background-color: #000000;
-    border: 1px solid #000000;
+    color: #00d4ff;
+    background-color: transparent;
+    border: 1px solid #00d4ff;
     padding: 10px 35px;
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 22px;
     text-transform: uppercase;
+    transition: all 0.3s ease;
 }
 
 .content .button a:hover {
-    background-color: #fff;
-    color: #000000;
+    background-color: #00d4ff;
+    color: #0a0e17;
 }
 
 .content .social {
@@ -320,21 +336,21 @@ color: #333;
 
 .content .social a {
     text-decoration: none;
-    color: #222;
+    color: #e2e8f0;
     font-size: 25px;
     padding: 0px 7px;
 }
 
 .content .social a:hover {
-    color: #8f8f8f;
+    color: #00d4ff;
     transition: 0.8s ease;
 }
 
 .content .social i {
     height: 40px;
     width: 40px;
-    background-color: #fff;
-    border: 1px solid #222;
+    background-color: #111827;
+    border: 1px solid #00d4ff;
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
