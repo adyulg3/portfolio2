@@ -239,12 +239,12 @@ body.no-scroll {
 }
 
 .profile-circle {
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     padding: 4px;
     background: linear-gradient(135deg, #00d4ff, #0066cc);
-    box-shadow: 0 0 20px rgba(0, 212, 255, 0.35);
+    box-shadow: 0 0 28px rgba(0, 212, 255, 0.4);
 }
 
 .profile-circle img {
