@@ -88,6 +88,12 @@ nav{
     }
     .burger{
         display: block;
+        position: relative;
+        z-index: 200;
+    }
+    .logo{
+        position: relative;
+        z-index: 200;
     }
 }
 
