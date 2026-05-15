@@ -232,6 +232,31 @@ body.no-scroll {
     overflow: hidden;
 }
 
+.profile-circle-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.profile-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(135deg, #00d4ff, #0066cc);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.35);
+}
+
+.profile-circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+    border: 3px solid #0a0e17;
+}
+
 .section-header {
     margin-top: 60px;
     margin-bottom: 30px;
